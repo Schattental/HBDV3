@@ -1,0 +1,19 @@
+# KiCad project files should use LF line endings consistently
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_dru text eol=lf
+
+# Common text outputs
+*.net text eol=lf
+*.csv text eol=lf
+*.xml text eol=lf
+
+# Binary/generated assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary

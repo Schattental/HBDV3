@@ -1,0 +1,30 @@
+# KiCad backups and temporary files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+#auto_saved_files#
+*.tmp
+~*.lck
+
+# KiCad cache / local settings
+fp-info-cache
+*.kicad_prl
+
+# Optional: generated export files
+*.net
+*.dsn
+*.ses
+
+# Optional: generated BOM/output files
+*.xml
+*.csv
+
+# KiCad local history
+.history/

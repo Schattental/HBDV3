@@ -1,0 +1,228 @@
+(footprint "Terminal_3p_push_45deg"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "8a1db9a0-bcae-4ee1-aabd-c479d11322b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Terminal_3p_push_45deg"
+		(at 3.755 8.865 0)
+		(layer "F.Fab")
+		(uuid "a4a918df-0e00-4d8b-8cfe-f640522b4a93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c02e83d-eb70-4dc9-b79d-ca57057bbdda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92786ea2-c515-46df-b864-ca381df02476")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 -4.9)
+		(end 5.2 -4.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c52e542f-7af7-4f5a-871f-4e88a7e8e66e")
+	)
+	(fp_line
+		(start -7 7.3)
+		(end -7 -4.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f078bdbc-d190-4006-8517-7959b46afd55")
+	)
+	(fp_line
+		(start 5.2 -4.9)
+		(end 5.2 7.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "626c2772-68d5-43e5-990f-a2d864e9e37f")
+	)
+	(fp_line
+		(start 5.2 7.3)
+		(end -7 7.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d788e41-dda1-49c7-827e-81a48e40c12a")
+	)
+	(fp_circle
+		(center -5.25 3.7)
+		(end -5.15 3.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "36690442-421f-4261-8416-71a08b989643")
+	)
+	(fp_poly
+		(pts
+			(xy -7.2 -5.1) (xy 5.4 -5.1) (xy 5.4 7.5) (xy -7.2 7.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "f9593d43-fd12-4c40-b5ae-c51d5a4bb4f8")
+	)
+	(fp_line
+		(start -6.9 -4.8)
+		(end 5.1 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81f7999e-776d-4099-aa6b-abe02ba535f0")
+	)
+	(fp_line
+		(start -6.9 7.2)
+		(end -6.9 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1103b3b4-3bb5-4454-9dd1-2b0025cec75b")
+	)
+	(fp_line
+		(start 5.1 -4.8)
+		(end 5.1 7.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a92c7d5-5f42-4a0c-ab29-5d9d10dedbda")
+	)
+	(fp_line
+		(start 5.1 7.2)
+		(end -6.9 7.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "628ffd93-37b4-4c95-8aa0-5671f2a8e5c8")
+	)
+	(fp_text user "1"
+		(at -3.9 5.05 0)
+		(layer "Dwgs.User")
+		(uuid "6777fb00-9706-4edf-a687-a7a05f8a5923")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 3.15 5.05 0)
+		(layer "Dwgs.User")
+		(uuid "d6235c7c-1ba6-4de5-ab24-95e92ee57b57")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -0.35 -0.2 0)
+		(layer "Dwgs.User")
+		(uuid "e8580f8b-14b3-45fd-8b3a-037a2fb4cd5d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 2.6)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7a04c973-9a9b-4ead-bf89-7ec432dc3462")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.6)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9a981e94-d0a5-42c1-b036-c64e0df7bab6")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 2.6)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d2ac10f0-906f-4e18-b010-f3c4340af462")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Beni/OneDrive - Queen's University/Master SESL/Optocoupler KiCad/Footprints/terminal 3p push/691412120003B.stp"
+		(offset
+			(xyz -3.65 -1.2 4.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1913,6 +1913,17 @@
 					)
 				)
 			)
+			(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "QH05BZ600"
 				(at 0 0 0)
 				(show_name no)
@@ -7454,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS, type = Zener diode"
+		(property "Description" "Zener diode"
 			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8628,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS, type = Zener diode"
+		(property "Description" "Zener diode"
 			(at 118.11 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9587,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS, type = Zener diode"
+		(property "Description" "Zener diode"
 			(at 255.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11058,7 +11069,7 @@
 				)
 			)
 		)
-		(property "Description" "4p push terminal phoenix contact, 10 A"
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 199.39 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11311,7 +11322,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS, type = Zener diode"
+		(property "Description" "Zener diode"
 			(at 255.27 92.71 0)
 			(hide yes)
 			(show_name no)

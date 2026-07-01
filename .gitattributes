@@ -17,3 +17,9 @@
 *.jpeg binary
 *.pdf binary
 *.zip binary
+
+# 3D models / mechanical assets
+*.step binary
+*.stp binary
+*.wrl binary
+*.stl binary

@@ -1,0 +1,234 @@
+(footprint "L7805_5V_regulator"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.995 -4.444 0)
+		(layer "F.SilkS")
+		(uuid "9e7c35b2-af8d-432d-ac99-1823de474a07")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L7805_5V_regulator"
+		(at 15.219 3.556 0)
+		(layer "F.Fab")
+		(uuid "1c902fd9-7f23-499f-9385-842f45ec72f3")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b060270-fe5b-4067-9bbc-a360baf7e1a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e1fedf0-134e-4776-8a39-f3082febae58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.65 -2.86)
+		(end 7.75 -2.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "751b83e2-0b3c-4671-8ff9-e2e20b4052a5")
+	)
+	(fp_line
+		(start -2.65 1.74)
+		(end -2.65 -2.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7095786c-27f2-41c9-bc95-31d31f87b385")
+	)
+	(fp_line
+		(start 7.75 -2.86)
+		(end 7.75 1.74)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e4e7adc-e502-4675-a00e-0c7d16495ddd")
+	)
+	(fp_line
+		(start 7.75 1.74)
+		(end -2.65 1.74)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29bab85e-07b0-436b-874b-8fde404d0571")
+	)
+	(fp_circle
+		(center 0 2.195)
+		(end 0.1 2.195)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8b45025a-faad-4838-9f10-6956e3e01e16")
+	)
+	(fp_line
+		(start -2.9 -3.106)
+		(end 8 -3.106)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb5ef320-9a7b-4ef5-bef2-b2deeaeee51f")
+	)
+	(fp_line
+		(start -2.9 1.99)
+		(end -2.9 -3.106)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54a733b6-5bd6-4cce-8bd9-8d8a9eb53a5d")
+	)
+	(fp_line
+		(start 8 -3.106)
+		(end 8 1.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f2179bc-1c20-4f7a-9c49-da9423a62b36")
+	)
+	(fp_line
+		(start 8 1.99)
+		(end -2.9 1.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de1291bc-6afe-4132-b96f-b78c4ef0b230")
+	)
+	(fp_line
+		(start -2.65 -2.86)
+		(end 7.75 -2.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00411bb9-bac5-4855-925b-c01afcace180")
+	)
+	(fp_line
+		(start -2.65 1.74)
+		(end -2.65 -2.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d8662e7-aa83-415f-8b46-32a8b1ee5d6d")
+	)
+	(fp_line
+		(start 7.75 -2.86)
+		(end 7.75 1.74)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "448e2098-c4d4-4170-b452-8bec19469b31")
+	)
+	(fp_line
+		(start 7.75 1.74)
+		(end -2.65 1.74)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4400b355-c9fb-4bc1-86c3-c20fbb603056")
+	)
+	(fp_circle
+		(center 0 2.195)
+		(end 0.1 2.195)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7fc6ad51-3312-4107-a8c5-896eba88c1d7")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.91 1.91)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ca72be37-b9d3-48b4-8b76-240b2c76e079")
+	)
+	(pad "2" thru_hole circle
+		(at 2.55 0)
+		(size 1.91 1.91)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "699330cb-35be-4512-8386-082ba9ff4355")
+	)
+	(pad "3" thru_hole circle
+		(at 5.1 0)
+		(size 1.91 1.91)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2302bc59-17a3-4882-90ee-65ce20060f70")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Beni/OneDrive - Queen's University/Master SESL/Optocoupler KiCad/Footprints/5V Regulator L7805/L7805CV.step"
+		(offset
+			(xyz 2.5 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

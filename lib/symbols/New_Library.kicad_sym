@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "Library:DSO14-300mil-adapter"
-			(at 0 0 0)
+			(at 0.254 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edr8259h-datasheet-en.pdf?fileId=8ac78c8c85c38e410185c577ad3e1b1b"
-			(at 0 0 0)
+			(at 0 20.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Description" "2-channel isolated gate driver,  5 A/9 A source/sink capability"
-			(at 0 0 0)
+			(at -1.778 15.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -395,7 +395,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 0 0 0)
+			(at 14.732 18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

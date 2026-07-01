@@ -484,8 +484,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Library"
+    ],
+    "pinned_symbol_libs": [
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "HBDV3.kicad_pro",

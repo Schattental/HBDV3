@@ -1521,6 +1521,270 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PMEG10020ELR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG10020ELR"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ir diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMEG10020ELR_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG10020ELR_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:2EDR6258X-DSO-14-300-mil"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1839,247 +2103,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "New_Library:QH05BZ600"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 12.7 7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "QH05BZ600"
-				(at 12.7 4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 13.97 14.478 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-				(at 13.97 12.446 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "600V, 5A, 10ns"
-				(at 12.446 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "QH05BZ600"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-263AB_PWI TO-263AB_PWI-M TO-263AB_PWI-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "QH05BZ600_0_1"
-				(polyline
-					(pts
-						(xy 10.16 2.54) (xy 10.16 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 2.54) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 2.54) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 17.78 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "QH05BZ600_1_1"
-				(pin output line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -7.62 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2467,7 +2490,7 @@
 	)
 	(rectangle
 		(start 12.7 114.3)
-		(end 70.485 161.29)
+		(end 70.485 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -2996,6 +3019,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 163.83) (xy 52.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0132a4f7-88c4-4d63-a4c3-f1ccf0c75b11")
+	)
+	(wire
+		(pts
+			(xy 34.29 173.99) (xy 52.07 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0588eb55-701f-4ee7-b48e-16fb078fd2ce")
+	)
+	(wire
+		(pts
 			(xy 248.92 68.58) (xy 248.92 64.77)
 		)
 		(stroke
@@ -3086,6 +3129,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 19.05) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148cf364-0b54-42d2-8b8b-6839ba33e1df")
+	)
+	(wire
+		(pts
 			(xy 254 19.05) (xy 254 29.21)
 		)
 		(stroke
@@ -3096,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 64.77) (xy 233.68 64.77)
+			(xy 232.41 64.77) (xy 237.49 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 157.48) (xy 35.56 157.48)
+			(xy 35.56 189.23) (xy 52.07 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3216,6 +3269,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1aa18c-7c11-4217-82e5-8fede18165d7")
+	)
+	(wire
+		(pts
 			(xy 95.25 80.01) (xy 95.25 82.55)
 		)
 		(stroke
@@ -3233,6 +3296,16 @@
 			(type default)
 		)
 		(uuid "2ff13db6-965f-4163-82de-21e2dde203cb")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f0f10a-2ec9-4be8-8044-ccf7580d9a19")
 	)
 	(wire
 		(pts
@@ -3326,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 158.75) (xy 52.07 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412f798d-3ee2-4b88-9ad8-e3ebcdd3c24d")
+	)
+	(wire
+		(pts
 			(xy 106.68 19.05) (xy 116.84 19.05)
 		)
 		(stroke
@@ -3386,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 30.48) (xy 243.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5cda1f-e824-4bb3-8e5d-9999d921a6c5")
+	)
+	(wire
+		(pts
 			(xy 106.68 53.34) (xy 119.38 53.34)
 		)
 		(stroke
@@ -3403,16 +3496,6 @@
 			(type default)
 		)
 		(uuid "4c56cd59-7e4f-41f4-8790-04532b9ece92")
-	)
-	(wire
-		(pts
-			(xy 106.68 34.29) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e9b179f-f3e8-4873-8ad5-3a72678554f3")
 	)
 	(wire
 		(pts
@@ -3466,13 +3549,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 243.84 35.56)
+			(xy 243.84 19.05) (xy 243.84 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a99f022-03ae-4d73-8379-d755424b1d6a")
+		(uuid "59efb94c-59e5-4090-a119-0df2d3e6b7ca")
 	)
 	(wire
 		(pts
@@ -3583,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "789a9eb9-0bd3-437d-a5d6-aa4f10b5714f")
+	)
+	(wire
+		(pts
+			(xy 34.29 168.91) (xy 52.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dd71a8-97c0-4bb1-95f4-212dd478637e")
 	)
 	(wire
 		(pts
@@ -3726,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 96.52 85.09)
+			(xy 95.25 85.09) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3783,6 +3876,16 @@
 			(type default)
 		)
 		(uuid "a1b173a8-2eca-4f4c-8462-f8ad4c1c0d3a")
+	)
+	(wire
+		(pts
+			(xy 245.11 64.77) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c25195-3937-41be-a177-8b1f448c9a97")
 	)
 	(wire
 		(pts
@@ -3976,6 +4079,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 85.09) (xy 248.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58b24ca-de53-43d0-83fb-57dd07084497")
+	)
+	(wire
+		(pts
 			(xy 243.84 45.72) (xy 256.54 45.72)
 		)
 		(stroke
@@ -4006,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 85.09) (xy 233.68 85.09)
+			(xy 232.41 85.09) (xy 237.49 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4033,6 +4146,16 @@
 			(type default)
 		)
 		(uuid "d27b3d78-0fb0-4c97-8982-5f897fc0c44f")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cafddf-b1b9-4056-83d4-28bffef3e1d9")
 	)
 	(wire
 		(pts
@@ -4196,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 96.52 64.77)
+			(xy 95.25 64.77) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4927,102 +5050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 254 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03cb239f-006c-4aba-b8f6-6948b2da49ee")
-		(property "Reference" "D8"
-			(at 241.3 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 241.3 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 240.03 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 240.03 97.536 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 241.554 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 254 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57824075-c2e4-44fd-a072-accc5d958287")
-		)
-		(pin "3"
-			(uuid "7cf5bd45-a040-4f4b-b04b-72fdeb33ef63")
-		)
-		(pin "1"
-			(uuid "2cb7a37f-8e2d-40c2-b7f3-86a48676085f")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 266.7 33.02 0)
 		(unit 1)
@@ -5487,7 +5514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aeb5c66-915c-45c1-88c1-b1cd8768ed6e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 175.26 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5547,103 +5574,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 254 64.77 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d24be27-8b5c-4bfc-b4ba-9df4a244f081")
-		(property "Reference" "D7"
-			(at 241.3 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 241.3 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 240.03 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 240.03 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 241.554 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 254 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f10db520-2100-4a44-9bde-c883fc4ec974")
-		)
-		(pin "3"
-			(uuid "bd42d6ed-8a2b-4c73-b99c-4151e2242d58")
-		)
-		(pin "1"
-			(uuid "ccfe76cd-aa90-4bbf-9761-24d79ce82e6a")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D7")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b467e0-a534-4af0-a8c1-a40404691502")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 138.43 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5683,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5770,7 +5701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237dc9c5-d175-428b-94eb-60e30da140de")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 201.93 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5782,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6131,6 +6062,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 104.14 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2caa5572-e9ac-46e5-9854-efee2203e155")
+		(property "Reference" "D2"
+			(at 103.8225 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 103.8225 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 104.14 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ac9ddf-88ae-420d-8fc1-1f5b6bc5d4fd")
+		)
+		(pin "2"
+			(uuid "29005ad7-59d3-4533-9378-fdc24d606097")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 86.36 90)
 		(unit 1)
@@ -6215,6 +6226,88 @@
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 243.84 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3074d5d0-0631-4e32-9998-b2e2c8c62acb")
+		(property "Reference" "D8"
+			(at 246.38 25.0824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 246.38 27.6224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 239.395 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4af81bf2-c2d7-4a61-8253-dbf8250ba8c7")
+		)
+		(pin "2"
+			(uuid "016922c5-dfa1-4a08-865b-69f98bf8d62e")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6414,7 +6507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380cdc61-fb39-4eb4-a1a4-26b2ba182e34")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 58.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6475,105 +6568,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 243.84 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a1d6e58-f7c4-4359-abb3-a20f0483b1f7")
-		(property "Reference" "D6"
-			(at 240.03 25.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 240.03 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 229.362 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 231.394 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 233.68 26.924 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 243.84 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d652100-f124-442a-91db-371e7bd4777f")
-		)
-		(pin "3"
-			(uuid "3bae3e2a-2885-4a07-aada-037c822621e6")
-		)
-		(pin "1"
-			(uuid "08738d37-0b82-4f3b-8ff3-aa018d5f8317")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D6")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ae0cee0-7aab-471b-9e37-3601ccabbc1b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 45.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6650,7 +6645,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6876,7 +6871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f6928d5-ddd9-4dc6-9269-9af641a5aa91")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 52.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6936,7 +6931,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7149,6 +7144,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "446f4946-5b9f-4deb-9b3b-97b1e522b5b1")
+		(property "Reference" "H1"
+			(at 80.01 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 33.02 0)
 		(unit 1)
@@ -7332,6 +7403,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e7b4837-627c-4707-b1e8-ff040d47c43a")
+		(property "Reference" "#PWR019"
+			(at 52.07 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.514 164.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "641a9c4b-8b51-413e-9dbe-4807fe0ebcdc")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 191.77 91.44 90)
 		(unit 1)
@@ -7343,7 +7491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "569db654-afc3-4b75-a1d5-bec1766e7104")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 195.58 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7404,7 +7552,163 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR023")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 34.29 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5897dfb9-e704-44b8-80ef-7e0b2faf1ece")
+		(property "Reference" "#PWR06"
+			(at 30.48 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+16.5V"
+			(at 38.1 156.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 34.29 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0fbd06f-61d0-43ca-b0f2-ebeda8b775d8")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58c53444-a1fb-4347-8424-7fae42750be8")
+		(property "Reference" "#PWR021"
+			(at 52.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.514 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ee1ac80-c062-4740-bf84-7a7e5a4cfcc7")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7503,6 +7807,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "60c47f90-b28b-440e-8666-88d1e570f53e")
+		(property "Reference" "H2"
+			(at 80.01 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 77.47 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 86.36 0)
 		(unit 1)
@@ -7514,7 +7894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63af15f2-5085-4351-9298-22d5b408aa25")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7574,7 +7954,165 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR018")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 106.68 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655f1d91-1d79-4c97-b5cf-3d3d76005898")
+		(property "Reference" "D3"
+			(at 109.22 25.0824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 109.22 27.6224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 102.235 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93a82b23-9ebe-4a44-9a3c-c0695552df9c")
+		)
+		(pin "2"
+			(uuid "8bb8efe0-6bc4-410e-a5e6-0dae1026f9b9")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "663bd65d-f81c-4bb3-b71e-a5145d6fa1a7")
+		(property "Reference" "H3"
+			(at 80.01 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 77.47 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7592,7 +8130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d5b190-1486-4eb7-a93c-c10e222b6eaf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 195.58 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +8191,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7670,7 +8208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ee8fb5a-bbdd-493e-be60-bfe236569984")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 52.07 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +8268,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7999,7 +8537,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 157.48 0)
+		(at 52.07 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8008,8 +8546,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789b9cae-2737-4a2d-97b1-3807b768bf9b")
-		(property "Reference" "#PWR07"
-			(at 35.56 163.83 0)
+		(property "Reference" "#PWR022"
+			(at 52.07 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.004 158.496 0)
+			(at 48.514 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8030,7 +8568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 157.48 0)
+			(at 52.07 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,7 +8579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 157.48 0)
+			(at 52.07 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 157.48 0)
+			(at 52.07 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,7 +8606,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR07")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b67cab4-c9d5-4c59-a63f-5ba3d5ba5530")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 30.48 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8330,7 +8868,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8876,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 29.21 154.94 270)
+		(at 35.56 186.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8348,8 +8886,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc6bb26-c343-45a0-9be7-a76eda926f6e")
-		(property "Reference" "#PWR02"
-			(at 25.4 154.94 0)
+		(property "Reference" "#PWR010"
+			(at 31.75 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8360,7 +8898,7 @@
 			)
 		)
 		(property "Value" "+16.5V"
-			(at 33.02 154.9399 90)
+			(at 39.37 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8371,7 +8909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 154.94 0)
+			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8382,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 154.94 0)
+			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,7 +8931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 29.21 154.94 0)
+			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,7 +8947,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8517,7 +9055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5807f86-d394-44c9-8880-346b394689f0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 30.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8578,7 +9116,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8688,7 +9226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6be60bd-10ff-427d-a47a-cdff09532a0d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 58.42 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +9287,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8767,7 +9305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c84bb6-58b6-41aa-86c1-097a2729fcd1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8827,7 +9365,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8835,7 +9373,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 24.13 157.48 180)
+		(at 30.48 189.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8845,8 +9383,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a896ddd7-6582-480c-a6ac-e505f6d7d84b")
-		(property "Reference" "J2"
-			(at 24.13 148.59 0)
+		(property "Reference" "J3"
+			(at 30.48 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8856,7 +9394,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02 PWR"
-			(at 24.13 151.13 0)
+			(at 30.48 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8866,7 +9404,7 @@
 			)
 		)
 		(property "Footprint" "Library:Phoenix_2p_push_terminal"
-			(at 24.13 157.48 0)
+			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +9415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 157.48 0)
+			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +9426,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 157.48 0)
+			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +9437,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/phoenix-contact/1792863/3439893"
-			(at 24.13 157.48 0)
+			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8914,6 +9452,115 @@
 		)
 		(pin "2"
 			(uuid "4423f349-7a52-4150-affe-cab64e1c77f5")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 24.13 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa020f2e-d439-484b-982c-cbb78ebdb748")
+		(property "Reference" "J2"
+			(at 24.13 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45 PWR"
+			(at 24.13 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:RJ45_E5J8800LJG2L"
+			(at 24.13 165.735 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_E5J88-00LJG2-L"
+			(at 24.13 165.735 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 24.13 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312"
+			(at 24.13 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "428a8f72-6a32-4a72-acf7-90f17a6fab35")
+		)
+		(pin "6"
+			(uuid "974720a5-79ae-4840-a665-7761eb71e3d2")
+		)
+		(pin "8"
+			(uuid "4adaf38d-0819-4f1b-b51a-11d80a71696e")
+		)
+		(pin "1"
+			(uuid "7570b542-1f62-4868-80d4-e1025bf3f301")
+		)
+		(pin "2"
+			(uuid "4c66449f-579f-425e-b484-ff7d0bc3a8d6")
+		)
+		(pin "3"
+			(uuid "79f87550-22bd-4d4d-9720-7815cc627a65")
+		)
+		(pin "5"
+			(uuid "7fef7d5b-03e3-445f-bdd0-0426e1b4dfa0")
+		)
+		(pin "7"
+			(uuid "6485f4f2-b216-454b-9dfe-dbfffe9b1e09")
 		)
 		(instances
 			(project "HBDV3"
@@ -9211,7 +9858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b695f0bd-f6c2-46d2-b958-1e549e615cc1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR025"
 			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +9919,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR017")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9399,7 +10046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba5ab823-20fc-4cf0-9b8b-938f65784808")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9460,7 +10107,245 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR024")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 241.3 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf39a64-2d1a-4a3e-8d4f-e464f2151f79")
+		(property "Reference" "D7"
+			(at 240.9825 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 240.9825 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 241.3 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a84fb502-e017-441d-8fee-b0670733c00b")
+		)
+		(pin "2"
+			(uuid "bf8a56b7-07aa-4ae7-adfe-a089022cb12f")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 34.29 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd004542-eee6-43d7-9bbb-8ec2b44e5444")
+		(property "Reference" "#PWR08"
+			(at 30.48 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+16.5V"
+			(at 38.1 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25ff0a30-2715-4c46-9c11-103a0ff2a0df")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 34.29 171.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be083ae1-0d94-4b8c-92a0-edbb472f7aad")
+		(property "Reference" "#PWR09"
+			(at 30.48 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+16.5V"
+			(at 38.1 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 34.29 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e54c1ed-29cc-4f72-8187-e1efb5c29758")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9477,7 +10362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be7c80d6-1e10-4fde-805c-ed2156303d27")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9537,7 +10422,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9630,6 +10515,86 @@
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 104.14 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca2c5dc4-912d-4375-b23c-bae08ce958bc")
+		(property "Reference" "D1"
+			(at 103.8225 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 103.8225 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 104.14 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 104.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 104.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86788514-715f-4478-8a41-4f93ce139084")
+		)
+		(pin "2"
+			(uuid "ac328bcd-143b-4222-b9d3-f766618f99f6")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9737,7 +10702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4406d8-fe09-45cc-a2ae-540735e5ec6c")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 82.55 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,7 +10793,86 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "J3")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 34.29 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ca19b5-9016-41b1-a432-b8be6428f485")
+		(property "Reference" "#PWR07"
+			(at 30.48 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+16.5V"
+			(at 38.1 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 34.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "876d3900-d021-48ce-8ef7-a374a2f0fd9e")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9846,7 +10890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d9925c-8e95-4f1c-bbe8-fbc7c207f009")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9906,7 +10950,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10276,102 +11320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 116.84 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e147f798-9ac6-4e54-9f38-467809b36d23")
-		(property "Reference" "D3"
-			(at 104.14 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 104.14 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 102.87 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 102.87 97.536 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 104.394 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 116.84 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cf848c81-548f-4b69-8d14-85b6e5e5b6d4")
-		)
-		(pin "3"
-			(uuid "952368f3-340b-48a2-ab9e-efd75f32bebc")
-		)
-		(pin "1"
-			(uuid "64018f60-509e-4a70-a7d8-1db22f02ca37")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 91.44 91.44 90)
 		(unit 1)
@@ -10549,104 +11497,6 @@
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 106.68 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5dc26ed-7703-4810-8a56-ba3e57ed7de7")
-		(property "Reference" "D1"
-			(at 102.87 25.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 102.87 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 92.202 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 94.234 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 96.52 26.924 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 106.68 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15be047d-e13c-4373-8b0c-254ec4159c5f")
-		)
-		(pin "3"
-			(uuid "cdfc0a91-ce6f-46b4-8171-ad64ed5c909f")
-		)
-		(pin "1"
-			(uuid "717e13be-ffe8-4b07-be25-427662d7dcbf")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10850,7 +11700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e942e953-eb3a-4af1-a8d1-399310630d53")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 30.48 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10911,103 +11761,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:QH05BZ600")
-		(at 116.84 64.77 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecfe4c39-7d63-4a76-8fd4-c7138aeea478")
-		(property "Reference" "D2"
-			(at 104.14 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "QH05BZ600"
-			(at 104.14 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 102.87 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.power.com/sites/default/files/documents/qh05tz600_qh05bz600.pdf"
-			(at 102.87 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "600V, 5A, 10ns"
-			(at 104.394 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/power-integrations/QH05BZ600/4503507"
-			(at 116.84 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4465c465-be4c-4148-8815-a24f2990d88b")
-		)
-		(pin "3"
-			(uuid "4c8d94aa-292d-4765-97f3-6321f0c681c2")
-		)
-		(pin "1"
-			(uuid "b32914d3-94eb-4ae5-a194-763209a74d48")
-		)
-		(instances
-			(project "HBDV3"
-				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "D2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11025,7 +11779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed196317-a5b7-4c2b-b7bc-55b0a42a6eaf")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 201.93 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +11860,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11123,7 +11877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef01711f-d719-45ad-b4df-4269a5f46b2b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 52.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11183,7 +11937,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11201,7 +11955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0807340-23e0-420b-b366-c6295304b0f2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11261,7 +12015,84 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR020")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0cb61fc-cf78-432e-87be-55ce787b05f7")
+		(property "Reference" "#PWR018"
+			(at 52.07 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.514 159.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbbcc9c7-164e-4693-bce7-890e343e2d39")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11450,6 +12281,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f3b59c68-003b-45b5-a1c5-af120bae5008")
+		(property "Reference" "H4"
+			(at 80.01 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 77.47 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 137.16 0)
 		(unit 1)
@@ -11460,7 +12367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5a1dddc-43f6-449b-8adb-5d427dc82254")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 52.07 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +12427,87 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR013")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG10020ELR")
+		(at 241.3 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5cd41cb-d446-408a-9748-7e431fa9d57d")
+		(property "Reference" "D6"
+			(at 240.9825 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG10020ELRX"
+			(at 240.9825 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 241.3 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbcff4d0-5476-45e6-8a88-ab37a00224e3")
+		)
+		(pin "2"
+			(uuid "3d2d1bee-d621-4ce9-af48-22cdc75ec263")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11538,7 +12525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6233fa8-014a-4448-9f2e-41eded4b2ceb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 30.48 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11599,7 +12586,7 @@
 		(instances
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11963,6 +12950,83 @@
 			(project "HBDV3"
 				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffc4ad59-d49e-4ed4-a155-5c6c099952e1")
+		(property "Reference" "#PWR020"
+			(at 52.07 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.514 169.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "268916f6-4ec4-4d75-b5b6-6dbc374f3964")
+		)
+		(instances
+			(project "HBDV3"
+				(path "/5a85e31a-5e43-4cf1-80eb-aae11ad34074"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

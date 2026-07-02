@@ -4417,6 +4417,16 @@
 		)
 		(uuid "52f362c5-c176-49d0-af7a-29bc1083ebb4")
 	)
+	(label "STP U1"
+		(at 48.26 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "565a3d6e-648a-4368-8516-6a32535c0553")
+	)
 	(label "A_LIN"
 		(at 54.61 76.2 180)
 		(effects
@@ -4446,6 +4456,16 @@
 			(justify right bottom)
 		)
 		(uuid "59973148-79b5-4b5a-9d11-ffc30bbc54e7")
+	)
+	(label "STP U2"
+		(at 185.42 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c1229fa-9970-4bcd-bcc0-a5a54fbfea63")
 	)
 	(label "VDDA"
 		(at 116.84 26.67 0)

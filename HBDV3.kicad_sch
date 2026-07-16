@@ -2559,7 +2559,7 @@
 		)
 		(uuid "0a414c9f-89ac-49de-9629-355e37bcf6f1")
 	)
-	(text "Gate resistors\n1 ohm turn off\n2 ohm turn on\nPARALLEL RES OPTIONAL\nultra fast turn off diode \n(trr = 10 ns)"
+	(text "Gate resistors\n1 ohm turn off\n2 ohm turn on\nPARALLEL RES OPTIONAL\nultra fast turn off diode \n(trr < 10 ns)"
 		(exclude_from_sim no)
 		(at 223.774 103.378 0)
 		(effects
@@ -2628,7 +2628,7 @@
 		)
 		(uuid "78fdc2d0-cfc9-4684-bc37-6911212f3cda")
 	)
-	(text "Gate resistors\n1 ohm turn off\n2 ohm turn on\nPARALLEL RES OPTIONAL\nultra fast turn off diode \n(trr = 10 ns)"
+	(text "Gate resistors\n1 ohm turn off\n2 ohm turn on\nPARALLEL RES OPTIONAL\nultra fast turn off diode \n(trr < 10 ns)"
 		(exclude_from_sim no)
 		(at 86.868 103.378 0)
 		(effects
@@ -2672,7 +2672,7 @@
 		)
 		(uuid "9bf1170f-71e0-4a48-8aef-4825bd4e2159")
 	)
-	(text "Boot-strap and\noutput supply bypass caps\nbypass caps min rec.:\n20 x C_iss (30 nF) of \nmosfet (SemiQ \nGCMX005A120S7B1) \n=> 600 nF -> approx 1 uF\nceramics have\nless C under DC bias\ntherefore -> 2.2 uF"
+	(text "Boot-strap and\noutput supply bypass caps\nbypass caps min rec.:\n20 x C_iss (30 nF) of \nmosfet (SemiQ \nGCMX005A120S7B1) \n=> 600 nF -> approx 1 uF\nceramics have\nless C under DC bias\n-80% -> 4.7 uF"
 		(exclude_from_sim no)
 		(at 63.246 28.956 0)
 		(effects
@@ -7434,7 +7434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 257.81 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7478,7 +7478,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A225KBFNNNE/5961186"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 254 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9084,7 +9084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 120.65 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9128,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A225KBFNNNE/5961186"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 116.84 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10212,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 247.65 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A225KBFNNNE/5961186"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 243.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13413,7 +13413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 110.49 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A225KBFNNNE/5961186"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
